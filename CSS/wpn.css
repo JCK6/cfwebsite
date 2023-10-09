@@ -1,0 +1,115 @@
+.container2{
+	width: 98% auto;
+	height: 100%;
+	margin: 15px;
+}
+#weapons{
+	height: initial;
+	width: 100%;
+	background-size: 100% 100%;
+}
+.namecard{
+	margin: auto;
+	background-image: url(../IMG/NAMECARDS/weapons.png);
+	background-size: 100% 100%;
+	float: left;
+	width: 100%;
+	height: 100px;
+}
+.title2{
+	text-align: center;
+	font-size: 225%;
+	color: black;
+}
+.tablebuttons2{
+	width: 100%;
+	background-color: rgb(16, 16, 16);
+	height: inherit;
+}
+.buttons2{
+	margin: 0 auto 0 auto;
+	width: 50%;
+	display: block;
+	color: white;
+	background-color: transparent;
+	border: none;
+	padding: 2px 4px;
+	font-size: 16px;
+}
+.buttons2:hover{
+	background-color: red;
+}
+.height{
+	height: 500px;
+	background-color: black;
+	overflow-y: scroll;
+}
+.PISTOL, .SHOTGUN, .SMG, .RIFLES, .MGS, .MELEE, .THROWABLE{
+	border-collapse: collapse;
+	width: 100%;
+}
+.SHOTGUN, .SMG, .RIFLES, .MGS, .MELEE, .THROWABLE{
+	display: none;
+}
+.img{
+	display: block;
+	margin: 0 auto 0 auto;
+	width: 50%;
+	margin-top: 2%;
+}
+.WPNTD{
+	text-align: center;
+	color: white;
+}
+.footer2{
+	float: left;
+	width: 100%;
+	height: 125px;
+	background-image: url(../IMG/NAMECARDS/cf20.png);
+	background-size: 100% 100%;
+	text-align: center;
+	margin: 0 0 1% 0;
+}
+.footer2P{
+	float: right;
+	margin: 0 1% 0 0;
+	text-align: right;
+	color: white;
+	font-size: 12px;
+}
+.footer2UL{
+	float: left;
+	margin: 2% 0 0 0;
+}
+.footer2UL2{/*2ND & 3RD UN-ORDERED LIST*/
+	float: right;
+	margin: -1% 0 0 0;
+}
+.footer2UL3{/*2ND & 3RD UN-ORDERED LIST*/
+	float: right;
+	margin: -2% 0 0 0;
+}
+.footer2LI2{ /*2ND ORDERED LIST*/
+	margin: 13% 0 0 0;
+	padding: 0 17px;
+	display: inline-block;
+	position: relative;
+}
+.footer2LI3{ /*2ND ORDERED LIST*/
+	float: right;
+	margin: auto -2.5% 0 -3.5%;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+#picico2{ /*2ND SMARTPHONE, EMAIL & FB ICON*/
+	height: 24px;
+	width: 24px;
+	margin-top: -15%;
+}
+.TLI{ /*ORDERED LIST*/
+	padding: 0 7px;
+	display: inline-block;
+	position: relative;
+	height: inherit;
+}

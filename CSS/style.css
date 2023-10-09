@@ -1,0 +1,302 @@
+/*CUSTOM CURSORS*/
+html{
+	cursor: url(../CURSORS/use66.cur), default;
+}
+h1, h2, h3, h6, h5, p, span, li{
+	cursor: url(../CURSORS/use80.cur), text;
+}
+a, button{
+	cursor: url(../CURSORS/use75.cur), pointer;
+}
+/*============================================*/
+
+/*CUSTOM SCROLLBAR*/
+::-webkit-scrollbar{
+	width: 10px;
+} 
+::-webkit-scrollbar-track{
+	background: black; 
+}
+::-webkit-scrollbar-thumb{
+	background: darkred;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: red;
+}
+/*============================================*/
+
+/*SET AN ANIMATED BACKGROUND TO THE WHOLE SCREEN*/
+html{
+	background-image: url(../IMG/MSC/htmlBG.gif);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow-y: scroll;
+	background-attachment: fixed;
+	font-family: 'Segoe UI',Tahoma,Geneva,Verdana, sans-serif;
+	color: black;
+}
+/*============================================*/
+
+/*FROM WEBPAGE TITLE TO FOOTER INSERT IT TO A RECTANGLE SHAPE*/
+.container{
+	width: 98% auto;
+	height: 100% auto;
+	margin: 15px;
+}
+/*============================================*/
+
+#minimize{
+	margin: 3.5% 0 0 -27%;
+	float: left;
+}
+#heading2{
+	text-align: center;
+}
+/*============================================*/
+
+.logo, .contact{ /*FIXED LOGO AND CONTACT HEADING (IT MIGHT ALSO APPLY TO OTHER HEADINGS)*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 50%;
+	height: 75px;
+	background-size: 100% 100%;
+}
+
+/*WEBPAGE TITLE SECTION*/
+.logo{ /*SET AN IMAGE TO A LOGO DIVISION*/
+	float: left;
+	background-image: url(../IMG/MSC/lgBG.png);
+}
+#piclogo{ /*IMAGE OF A TEMPORARY LOGO*/
+	float: left;
+	margin-left: 2%;
+	margin-top: 6px;
+	height: 64px;
+	width: 64px;
+}
+#tab{ /*DESIGN THE H1 NAMED "WEBPAGE TITLE"*/
+	float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+/*CONTACT INFO SECTION*/
+.contact{ /*SET AN IMAGE TO A CONTACT DIVISION*/
+	float: right;
+	background-image: url(../IMG/MSC/cntBG.png);
+}
+.contact a{
+	display: block;
+	padding: 12px;
+}
+#tab2{ /*DESIGN THE H1 NAMED "CONTACT INFO"*/
+	text-align: center;
+	margin: -1% 0 0 0;
+}
+#picico{ /*SMARTPHONE, EMAIL & FB ICON*/
+	margin: auto;
+	height: 24px;
+	width: 24px;
+	float: right;
+	margin: -1% 0 0 0;
+}
+#IDfntsze{ /*RESIZE THE TEXT OF A PARAGRAPH, SPAN etc.*/
+	float: right;
+	text-align: center;
+	font-size: 75%;
+	color: black;
+	font-weight: bold;
+	margin: -2% 1% 0 0;
+}
+u#IDfntsze:hover{
+	color: red;
+}
+/*============================================*/
+
+/*NAVIGATION SECTION*/
+.navigation{
+	margin: auto;
+	float: left;
+	width: 100%;
+	height: inherit;
+	background-color: black;
+	text-align: center;
+	font-size: 80%;
+}
+ul{ /*UN-ORDERED LIST*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li{ /*ORDERED LIST*/
+	margin: 0 auto;
+	padding: 0 35px;
+	display: inline-block;
+	position: relative;
+	height: inherit;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+.hashtag{ /*ANCHOR*/
+	display: block;
+	text-align: center;
+	padding: inherit;
+}
+/*============================================*/
+
+.mb1, .mb2, .mb3{ /*ARRANGED IMAGES*/
+	float: left;
+}
+#mb1, #mb2, #mb3{ /*WIDTH AND HEIGHT OF AN IMAGE ON A MIDBOX*/
+	width: 100%;
+	height: inherit;
+}
+.mb1, .mb3{ /*IMAGE 1 & IMAGE 3'S CONFIG*/
+	width: 30%;
+	height: 300px;
+	display: inline-block;
+	background-color: white;
+}
+.mb2{ /*IMAGE 2'S CONFIG*/
+	width: 40.50%;
+	height: 300px;
+	display: inline-block;
+	margin-left: -0.50%;
+	background-color: white;
+}
+/*============================================*/
+
+.sdebr{
+	margin-top: -1px;
+	float: left;
+	width: 40%;
+	height: 300px;
+	background-color: rgb(40,40,40);
+	text-align: center;
+}
+#btn1, #btn2, #btn3, #btn4, #btn5{
+	background-size: 100% 100%;
+	padding: 14.3px 28.3px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 19.4px;
+	width: 100%;
+	display: block;
+	color: white;
+	border-bottom: none; /* Prevent double borders */
+}
+#btn1{
+	background-image: url(../IMG/NAMECARDS/snamecard.jpg);
+}
+#btn2{
+	background-image: url(../IMG/NAMECARDS/gnamecard.jpg);
+}
+#btn3{
+	background-image: url(../IMG/NAMECARDS/dnamecard.jpg);
+}
+#btn4{
+	background-image: url(../IMG/NAMECARDS/enamecard.jpg);
+}
+#btn5{
+	background-image: url(../IMG/NAMECARDS/mnamecard.jpg);
+}
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover{
+	color: red;
+	opacity: 75%;
+}
+.soldier, .pofficer, .cofficer, .fofficer, .general{
+	background-color: rgb(40,40,40);
+	color: white;
+}
+.TDATA{
+	padding: 0 auto;
+}
+table .THEAD, table .TDATA{
+	border: 1px solid rgb(30,30,30);
+	border-collapse: collapse;
+}
+.TROW:nth-child(even){
+	background-color: rgb(69,69,69);
+}
+.TROW:nth-child(odd){
+	background-color: rgb(87,87,87);
+}
+.x32{
+	height: 32px;
+	width: 32px;
+}
+#pofficer, #cofficer, #fofficer, #general{
+	display: none; 
+}
+#cofficer, #fofficer, #general{
+	width: 100%;
+}
+.contentcon{
+	margin-top: -1px;
+	float: right;
+	width: 60%;
+	height: 300px;
+	background-color: rgb(40,40,40);
+	text-align: center;
+	overflow-y: scroll;
+}
+/*============================================*/
+
+.footer{
+	float: left;
+	width: 100%;
+	height: 125px;
+	background-image: url(../IMG/NAMECARDS/cf20.png);
+	background-size: 100% 100%;
+	text-align: center;
+	margin-bottom: 1%;
+}
+.footerP{
+	float: right;
+	margin: 0 1% 0 0;
+	text-align: right;
+	color: white;
+	font-size: 12px;
+}
+.footerUL{
+	float: left;
+	margin: 2% 0 0 0;
+}
+.footerUL2{/*2ND & 3RD UN-ORDERED LIST*/
+	float: right;
+	margin: -1% 0 0 0;
+}
+.footerUL3{/*2ND & 3RD UN-ORDERED LIST*/
+	float: right;
+	margin: -2% 0 0 0;
+}
+.footerLI2{ /*2ND ORDERED LIST*/
+	margin: 10% 0 0 0;
+	padding: 0 17px;
+	display: inline-block;
+	position: relative;
+}
+.footerLI3{ /*2ND ORDERED LIST*/
+	float: right;
+	margin: auto -2.5% 0 -3.5%;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+#picico2{ /*2ND SMARTPHONE, EMAIL & FB ICON*/
+	height: 24px;
+	width: 24px;
+	margin-top: -15%;
+}
+.TLI{ /*ORDERED LIST*/
+	padding: 0 7px;
+	display: inline-block;
+	position: relative;
+	height: inherit;
+}
