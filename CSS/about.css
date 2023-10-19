@@ -85,9 +85,8 @@
 	width: 24px;
 	margin-top: -15%;
 }
-.TLI{ /*ORDERED LIST*/
-	padding: 0 7px;
-	display: inline-block;
-	position: relative;
-	height: inherit;
+.LEFT{
+	float: left;
+	color: white;
+	margin: 1% auto auto 3%;
 }
