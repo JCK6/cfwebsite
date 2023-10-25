@@ -85,6 +85,12 @@ html{
 	float: right;
 	background-image: url(../IMG/MSC/cntBG.png);
 }
+.vcounter{
+	float: right;
+/*	width: 102px;
+	height: 112px;*/
+	margin: -7% 25% 0 0;
+}
 .contact a{
 	display: block;
 	padding: 12px;
