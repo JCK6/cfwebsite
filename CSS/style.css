@@ -1,4 +1,3 @@
-/*CUSTOM CURSORS*/
 html{
 	cursor: url(../CURSORS/use66.cur), default;
 }
@@ -8,9 +7,6 @@ h1, h2, h3, h6, h5, p, span, li{
 a, button{
 	cursor: url(../CURSORS/use75.cur), pointer;
 }
-/*============================================*/
-
-/*CUSTOM SCROLLBAR*/
 ::-webkit-scrollbar{
 	width: 10px;
 } 
@@ -23,9 +19,6 @@ a, button{
 ::-webkit-scrollbar-thumb:hover{
 	background: red;
 }
-/*============================================*/
-
-/*SET AN ANIMATED BACKGROUND TO THE WHOLE SCREEN*/
 html{
 	background-image: url(../IMG/MSC/htmlBG.gif);
 	background-size: 100% 100%;
@@ -35,16 +28,11 @@ html{
 	font-family: 'Segoe UI',Tahoma,Geneva,Verdana, sans-serif;
 	color: black;
 }
-/*============================================*/
-
-/*FROM WEBPAGE TITLE TO FOOTER INSERT IT TO A RECTANGLE SHAPE*/
 .container{
 	width: 98% auto;
 	height: 100% auto;
 	margin: 15px;
 }
-/*============================================*/
-
 #minimize{
 	margin: 3.5% 0 0 -27%;
 	float: left;
@@ -52,9 +40,7 @@ html{
 #heading2{
 	text-align: center;
 }
-/*============================================*/
-
-.logo, .contact{ /*FIXED LOGO AND CONTACT HEADING (IT MIGHT ALSO APPLY TO OTHER HEADINGS)*/
+.logo, .contact{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	width: 50%;
@@ -62,51 +48,60 @@ html{
 	background-size: 100% 100%;
 }
 
-/*WEBPAGE TITLE SECTION*/
-.logo{ /*SET AN IMAGE TO A LOGO DIVISION*/
+.logo{
 	float: left;
 	background-image: url(../IMG/MSC/lgBG.png);
 }
-#piclogo{ /*IMAGE OF A TEMPORARY LOGO*/
+#piclogo{
 	float: left;
 	margin-left: 2%;
 	margin-top: 6px;
 	height: 64px;
 	width: 64px;
 }
-#tab{ /*DESIGN THE H1 NAMED "WEBPAGE TITLE"*/
+#tab{
 	float: left;
-	margin-left: 2%;
-	margin-top: 2%;
+	margin: 2% 0 0 2%;
 }
-
-/*CONTACT INFO SECTION*/
-.contact{ /*SET AN IMAGE TO A CONTACT DIVISION*/
+.contact{
 	float: right;
 	background-image: url(../IMG/MSC/cntBG.png);
 }
 .vcounter{
-	float: right;
-/*	width: 102px;
-	height: 112px;*/
-	margin: -7% 25% 0 0;
+	float: left;
+	width: 100%;
+	height: 79px;
+	background-image: url(../IMG/NAMECARDS/vcounter.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow-y: scroll;
+	text-align: center;
+	color: white;
+}
+.vcounter h1{
+	font-size: 100%;
+}
+.script{
+	margin: -1% 40% auto 40%;
+}
+.script a{
+	font-size: auto;
 }
 .contact a{
 	display: block;
 	padding: 12px;
 }
-#tab2{ /*DESIGN THE H1 NAMED "CONTACT INFO"*/
+#tab2{
 	text-align: center;
 	margin: -1% 0 0 0;
 }
-#picico{ /*SMARTPHONE, EMAIL & FB ICON*/
-	margin: auto;
+#picico{
 	height: 24px;
 	width: 24px;
 	float: right;
 	margin: -1% 0 0 0;
 }
-#IDfntsze{ /*RESIZE THE TEXT OF A PARAGRAPH, SPAN etc.*/
+#IDfntsze{
 	float: right;
 	text-align: center;
 	font-size: 75%;
@@ -117,9 +112,6 @@ html{
 u#IDfntsze:hover{
 	color: red;
 }
-/*============================================*/
-
-/*NAVIGATION SECTION*/
 .navigation{
 	margin: auto;
 	float: left;
@@ -129,13 +121,13 @@ u#IDfntsze:hover{
 	text-align: center;
 	font-size: 80%;
 }
-ul{ /*UN-ORDERED LIST*/
+ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-li{ /*ORDERED LIST*/
+li{
 	margin: 0 auto;
 	padding: 0 35px;
 	display: inline-block;
@@ -149,35 +141,31 @@ a{
 a:hover{
 	color: red;
 }
-.hashtag{ /*ANCHOR*/
+.hashtag{
 	display: block;
 	text-align: center;
 	padding: inherit;
 }
-/*============================================*/
-
-.mb1, .mb2, .mb3{ /*ARRANGED IMAGES*/
+.mb1, .mb2, .mb3{
 	float: left;
 }
-#mb1, #mb2, #mb3{ /*WIDTH AND HEIGHT OF AN IMAGE ON A MIDBOX*/
+#mb1, #mb2, #mb3{
 	width: 100%;
 	height: inherit;
 }
-.mb1, .mb3{ /*IMAGE 1 & IMAGE 3'S CONFIG*/
+.mb1, .mb3{
 	width: 30%;
 	height: 300px;
 	display: inline-block;
 	background-color: white;
 }
-.mb2{ /*IMAGE 2'S CONFIG*/
+.mb2{
 	width: 40.50%;
 	height: 300px;
 	display: inline-block;
 	margin-left: -0.50%;
 	background-color: white;
 }
-/*============================================*/
-
 .sdebr{
 	margin-top: -1px;
 	float: left;
@@ -195,7 +183,7 @@ a:hover{
 	width: 100%;
 	display: block;
 	color: white;
-	border-bottom: none; /* Prevent double borders */
+	border-bottom: none;
 }
 #btn1{
 	background-image: url(../IMG/NAMECARDS/snamecard.jpg);
@@ -252,8 +240,6 @@ table .THEAD, table .TDATA{
 	text-align: center;
 	overflow-y: scroll;
 }
-/*============================================*/
-
 .footer{
 	float: left;
 	width: 100%;
@@ -274,34 +260,261 @@ table .THEAD, table .TDATA{
 	float: left;
 	margin: 2% 0 0 0;
 }
-.footerUL2{/*2ND & 3RD UN-ORDERED LIST*/
+.footerUL2{
 	float: right;
 	margin: -1% 0 0 0;
 }
-.footerUL3{/*2ND & 3RD UN-ORDERED LIST*/
+.footerUL3{
 	float: right;
 	margin: -2% 0 0 0;
 }
-.footerLI2{ /*2ND ORDERED LIST*/
+.footerLI2{
 	margin: 10% 0 0 0;
 	padding: 0 17px;
 	display: inline-block;
 	position: relative;
 }
-.footerLI3{ /*2ND ORDERED LIST*/
+.footerLI3{
 	float: right;
 	margin: auto -2.5% 0 -3.5%;
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
 }
-#picico2{ /*2ND SMARTPHONE, EMAIL & FB ICON*/
+#picico2{
 	height: 24px;
 	width: 24px;
-	margin-top: -15%;
+	margin: -15% 0 0 0;
 }
 .LEFT{
 	float: left;
 	color: white;
 	margin: 1% auto auto 3%;
+}
+/*320*/
+@media only screen and (min-width:0px) and (max-width:320px){
+	.script{
+		margin: -4% 25% auto 25%;
+	}
+	#btn1, #btn2, #btn3, #btn4, #btn5{
+		font-size: 100%;
+	}
+	.btngroup{
+		overflow-y: scroll;
+		height: 250px;
+	}
+	.footer .footerUL3 li{
+		margin-top: 1%;
+		margin-right: -12%;
+		margin-bottom: 0;
+		margin-left: -11%;
+		font-size: 50%;
+	}
+	.footerLI2 img, .footerLI img{
+		width: 50%;
+	}
+	.footerLI2{
+		margin: 2% -14% 0 7%;		
+	}
+	.footer .footerUL .footerLI{
+		margin: 0 -20% 0 -18%;
+		float: left;		
+	}
+	.footer .footerP{
+		margin: 2% 1% 0 0;
+		font-size: 64%;
+	}
+	.contact #IDfntsze{
+		font-size: 75%;
+		margin: -15% 25% 0 0;
+	}
+	.contact #tab2{
+		font-size: 64%;
+	}
+	.footer .LEFT{
+		margin: 1% 0 0 2%;
+		font-size: 64%;
+	}
+	div.logo #minimize{
+		margin: -28% 0 0 33%;
+		font-size: 60%;
+	}
+	.navigation{
+		overflow-y: scroll;
+		height: 15px;
+	}
+	#picico2{
+		height: 15px;
+		width: 15px;
+	}
+	.contact #picico{
+		margin: -8% 0 0 0;
+	}
+	#piclogo{
+		height: 50px;
+		width: 50px;
+	}
+	.sdebr h2{
+		font-size: 100%;
+	}
+	.logo #tab{
+		margin: -40% 0 0 30%;
+		font-size: 100%;
+	}
+}
+
+/*375*/
+@media only screen and (min-width:330px) and (max-width:375px){
+	.script{
+		margin: -4% 25% auto 25%;
+	}
+	.btngroup{
+		overflow-y: scroll;
+		height: 240px;
+	}
+	.footerLI3{
+		margin: 1% -9% 0 -9%;
+		font-size: 50%;
+	}
+	.footerLI2 img, .footerLI img{
+		width: 50%;
+	}
+	.footerLI2{
+		margin: 2% -14% 0 7%;		
+	}
+	.footerLI{
+		margin: 0 -20% 0 -18%;
+		float: left;		
+	}
+	.footerP{
+		margin: 2% 1% 0 0;
+		font-size: 64%;
+	}
+	#IDfntsze{
+		margin: -12% 21% 0 0;
+	}
+	#IDfntsze, #tab2{
+		font-size: 75%;
+	}
+	.LEFT{
+		margin: 1% 0 0 2%;
+		font-size: 50%;
+	}
+	.logo #minimize{
+		margin: -29% 0 0 40%;
+		font-size: 64%;
+	}
+	.navigation{
+		overflow-y: scroll;
+		height: 15px;
+	}
+	#picico{
+		margin: -8% 0 0 0;
+	}
+	#tab{
+		font-size: 115%;
+	}
+}
+
+/*425*/
+@media only screen and (min-width:380px) and (max-width:425px){
+	.script{
+		margin: -4% 25% auto 25%;
+	}
+	.btngroup{
+		overflow-y: scroll;
+		height: 240px;
+	}
+	.footerLI3{
+		margin: 1% -7% 0 -9%;
+		font-size: 50%;
+	}
+	.footerLI2 img, .footerLI img{
+		width: 50%;
+	}
+	.footerLI2{
+		margin: 2% -14% 0 7%;		
+	}
+	.footerLI{
+		margin: 0 -15% 0 -15%;
+		float: left;		
+	}
+	.footerP{
+		margin: 2% 1% 0 0;
+		font-size: 64%;
+	}
+	#IDfntsze{
+		margin: -12% 21% 0 0;
+	}
+	#IDfntsze, #tab2{
+		font-size: 75%;
+	}
+	.LEFT{
+		margin: 1% 0 0 2%;
+		font-size: 50%;
+	}
+	#minimize{
+		margin: -25% 0 0 38%;
+		font-size: 64%;
+	}
+	.navigation{
+		overflow-y: scroll;
+		height: 15px;
+	}
+	#picico{
+		margin: -8% 0 0 0;
+	}
+	#tab{
+		font-size: 115%;
+	}
+}
+
+/*768*/
+@media only screen and (min-width:430px) and (max-width:768px){
+	.btngroup{
+		overflow-y: scroll;
+		height: 240px;
+	}
+	.footerLI3{
+		margin: 2% -3% 0 -3%;
+		font-size: 75%;
+	}
+	.footerLI2 img, .footerLI img{
+		width: 50%;
+	}
+	.footerLI2{
+		margin: 2% -14% 0 7%;		
+	}
+	.footerLI{
+		margin: 0 0 0 -10%;
+		float: left;		
+	}
+	.footerP{
+		margin: 1% 1% 0 0;
+		font-size: 64%;
+	}
+	#IDfntsze{
+		margin: -8% 10% 0 0;
+	}
+	#IDfntsze, #tab2{
+		font-size: 100%;
+	}
+	.LEFT{
+		margin: 1% 0 0 2%;
+		font-size: 75%;
+	}
+	#minimize{
+		margin: -9% 0 0 20%;
+		font-size: 100%;
+	}
+	.navigation{
+		overflow-y: scroll;
+		height: 15px;
+	}
+	#picico{
+		margin: -6% 0 0 0;
+	}
+	#tab{
+		font-size: 200%;
+	}
 }

@@ -1,8 +1,9 @@
 .container2{
 	width: 98% auto;
-	height: 100%;
+	height: 100% auto;
 	margin: 15px;
-}.namecard{
+}
+.namecard{
 	margin: auto;
 	float: left;
 	width: 100%;
@@ -74,54 +75,140 @@
 	padding: 0 100px;
 	font-size: 150%;
 }
-.footer2{
-	float: left;
-	width: 100%;
-	height: 125px;
-	background-image: url(../IMG/NAMECARDS/cf20.png);
-	background-size: 100% 100%;
+.CommentContainer{
+	background-color: rgb(128, 128, 128, 1.0);
+	margin: auto;
+	height: 390px;
+	overflow-y: scroll;
+}
+.CommentContainer h1{
 	text-align: center;
-	margin: -0.1% 0 1% 0;
-}
-.footer2P{
-	float: right;
-	margin: 0 1% 0 0;
-	text-align: right;
-	color: white;
-	font-size: 12px;
-}
-.footer2UL{
-	float: left;
-	margin: 2% 0 0 0;
-}
-.footer2UL2{/*2ND & 3RD UN-ORDERED LIST*/
-	float: right;
-	margin: -1% 0 0 0;
-}
-.footer2UL3{/*2ND & 3RD UN-ORDERED LIST*/
-	float: right;
-	margin: -2% 0 0 0;
-}
-.footer2LI2{ /*2ND ORDERED LIST*/
-	margin: 13% 0 0 0;
-	padding: 0 17px;
-	display: inline-block;
-	position: relative;
-}
-.footer2LI3{ /*2ND ORDERED LIST*/
-	float: right;
-	margin: auto -2.5% 0 -3.5%;
-	display: inline-block;
-	position: relative;
-	text-decoration: none;
-}
-#picico2{ /*2ND SMARTPHONE, EMAIL & FB ICON*/
-	height: 24px;
-	width: 24px;
-	margin-top: -15%;
 }
 .LEFT{
 	float: left;
 	color: white;
 	margin: 1% auto auto 3%;
+}
+@media only screen and (min-width:0px) and (max-width:320px){
+	.cntct{
+		height: 260px;
+	}
+	.tblbtn button{
+		margin: auto 10% auto 10%;
+	}
+	.namecard h1, .cntct h1{
+		font-size: 150%;
+		margin: 5% auto auto 3%;
+	}
+	.sze{
+		margin: auto -12% auto -10%;
+		font-size: 45%;
+	}
+	.cntct2 p{
+		font-size: 60%;
+	}
+	.cntct2 h1{
+		font-size: 60%;		
+	}
+	.cntct2 img{
+		height: 15%;
+		width: 25%;
+		margin: -22% 5% auto auto;
+	}
+	.cntct2 table tbody tr td{
+		font-size: 75%;
+	}
+	.cntct2 table {
+		margin: -5% -30% auto -35%;
+	}
+}
+@media only screen and (min-width:330px) and (max-width:375px){
+	.cntct{
+		height: 255px;
+	}
+	.namecard h1, .cntct h1{
+		font-size: 150%;
+		margin: 5% auto auto 3%;
+	}
+	.sze{
+		margin: auto -7% auto -8%;
+		font-size: 50%;
+	}
+	.cntct2 p{
+		font-size: 60%;
+	}
+	.cntct2 h1{
+		font-size: 60%;		
+	}
+	.cntct2 img{
+		height: 13%;
+		width: 23%;
+		margin: -18% 5% auto auto;
+	}
+	.cntct2 table tbody tr td{
+		font-size: 50%;
+	}
+	.cntct2 table {
+		margin: -5% -70% auto -29%;
+	}
+}
+@media only screen and (min-width:380px) and (max-width:425px){
+	.cntct{
+		height: 285px;
+	}
+	.namecard h1, .cntct h1{
+		font-size: 150%;
+		margin: 5% auto auto 3%;
+	}
+	.sze{
+		margin: auto -7% auto -8%;
+		font-size: 62%;
+	}
+	.cntct2 p{
+		font-size: 60%;
+	}
+	.cntct2 h1{
+		font-size: 60%;		
+	}
+	.cntct2 img{
+		height: 15%;
+		width: 20%;
+		margin: -17% 5% auto auto;
+	}
+	.cntct2 table tbody tr td{
+		font-size: 75%;
+	}
+	.cntct2 table {
+		margin: -5% -70% auto -25%;
+	}
+}
+@media only screen and (min-width:430px) and (max-width:768px){
+	.cntct{
+		height: 445px;
+	}
+	.namecard h1, .cntct h1{
+		font-size: 150%;
+		margin: 5% auto auto 3%;
+	}
+	.sze{
+		margin: auto;
+		font-size: 100%;
+	}
+	.cntct2 p{
+		font-size: 60%;
+	}
+	.cntct2 h1{
+		font-size: 60%;		
+	}
+	.cntct2 img{
+		height: 15%;
+		width: 13%;
+		margin: -10% 5% auto auto;
+	}
+	.cntct2 table tbody tr td{
+		font-size: 75%;
+	}
+	.cntct2 table {
+		margin: auto -70% auto -10%;
+	}	
 }

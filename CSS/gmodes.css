@@ -88,3 +88,9 @@
 	color: white;
 	margin: 1% auto auto 3%;
 }
+@media only screen and (min-width:0px) and (max-width:320px){
+	.title{
+		font-size: 200%;
+		margin: 10% 0 0 0;
+	}
+}

@@ -21,12 +21,12 @@
 	font-size: 225%;
 	color: black;
 }
-.tablebuttons2{
+.tablebuttons{
 	width: 100%;
 	background-color: rgb(16, 16, 16);
 	height: inherit;
 }
-.buttons2{
+.buttons{
 	margin: 0 auto 0 auto;
 	width: 50%;
 	display: block;
@@ -36,7 +36,7 @@
 	padding: 2px 4px;
 	font-size: 16px;
 }
-.buttons2:hover{
+.buttons:hover{
 	background-color: red;
 }
 .height{
@@ -111,4 +111,28 @@
 	float: left;
 	color: white;
 	margin: 1% auto auto 3%;
+}
+@media only screen and (min-width:0px) and (max-width:320px){
+	.buttons{
+		font-size: 50%;
+		margin: 0 -1px 0 0;
+	}
+}
+@media only screen and (min-width:330px) and (max-width:375px){
+	.buttons{
+		font-size: 50%;
+		margin: 0 -1px 0 8px;
+	}
+}
+@media only screen and (min-width:380px) and (max-width:425px){
+	.buttons{
+		font-size: 50%;
+		margin: 0 6px 0 8px;
+	}
+}
+@media only screen and (min-width:430px) and (max-width:768px){
+	.buttons{
+		font-size: 50%;
+		margin: 0 6px 0 30px;
+	}	
 }

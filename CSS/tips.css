@@ -124,3 +124,11 @@
 	color: white;
 	margin: 1% auto auto 3%;
 }
+@media only screen and (min-width:0px) and (max-width:320px){
+	.databuttons{
+		font-size: 50%;
+	}
+	.cntr{
+	margin: 0;
+	}
+}
