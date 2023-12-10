@@ -518,7 +518,7 @@ table .THEAD, table .TDATA{
 		font-size: 200%;
 	}
 }
-@media only screen and (min-width: 720px) and (max-width: 720px) and (max-height: 1600px){
+@media only screen and (min-width: 720px) and (max-width: 768px) and (max-height: 1600px){
 	html{
 		height: 1600px;
 	}
