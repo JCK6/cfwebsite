@@ -518,3 +518,26 @@ table .THEAD, table .TDATA{
 		font-size: 200%;
 	}
 }
+@media only screen and (min-width: 720px) and (max-width: 720px) and (max-height: 1600px){
+	html{
+		height: 1600px;
+	}
+	.navigation{
+		height: 100%;
+	}
+	.sdebr{
+		height: auto;
+	}
+	.btngroup{
+		height: 510px;
+	}
+	#btn1, #btn2, #btn3, #btn4, #btn5, #btn6{
+		height: 100px;
+	} 
+	.contentcon{
+		height: 540px;
+	}
+	.footer{
+		margin: 0 0 0 0;
+	}
+}
