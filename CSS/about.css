@@ -139,18 +139,55 @@
 	}
 }
 @media only screen and (min-width:430px) and (max-width:768px){
+	.container2, body, html{
+		height: 761px;
+	}
+	.navigation{
+		height: initial;
+	}
 	.aHEADING{
 		margin: -46% 0 0 20%;
 		font-size: 300%;
+	}
+	.about{
+		height: 89%;
+	}
+	#aIMGS{
+		height: 70%;
 	}
 	.aP{
 		overflow-y: scroll;
 		height: 55%;
 		width: 96%;
 		margin: -45% 0 0 1%;
+		font-size: 110%;
 	}
 	#picico2{
 		height: 15px;
 		width: 15px;
 	}	
+}
+@media only screen and (min-width:430px) and (max-width:720px) and (max-height:1600px){
+	.container2, body, html{
+		height: 1600px;
+	}
+	.navigation{
+		height: initial;
+	}
+	.about{
+		height: 89%;
+	}
+	#aIMGS{
+		height: 70%;
+	}
+	.about h1{
+		margin: -185% 0 0 20%;
+	}
+	.aP{
+		margin: -190% 0 0 1%;
+		height: auto;
+	}
+	.footer{
+		margin: 0 0 0 0;
+	}
 }

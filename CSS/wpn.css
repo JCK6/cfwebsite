@@ -131,8 +131,23 @@
 	}
 }
 @media only screen and (min-width:430px) and (max-width:768px){
+	.container2, body, html{
+		height: auto;
+	}
+	.navigation{
+		height: initial;
+	}
 	.buttons{
 		font-size: 50%;
 		margin: 0 6px 0 30px;
 	}	
+}
+@media only screen and (min-width:430px) and (max-width:720px) and (max-height:1600px){
+	.height{
+		height: 780px;
+	}
+	.PISTOL, .SHOTGUN, .SMG, .RIFLES, .MGS, .MELEE, .THROWABLE{
+		overflow-y: scroll;
+		height: auto;
+	}
 }
