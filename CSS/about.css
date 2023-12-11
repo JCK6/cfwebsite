@@ -181,11 +181,15 @@
 		height: 70%;
 	}
 	.about h1{
-		margin: -185% 0 0 20%;
+		margin: -115% 0 0 1%;
+		float: left;
+		font-size: -webkit-xxx-large;
 	}
 	.aP{
-		margin: -190% 0 0 1%;
+		margin: -120% 0 0 1%;
 		height: auto;
+		float: left;
+		font-size: inherit;
 	}
 	.footer{
 		margin: 0 0 0 0;
