@@ -180,16 +180,16 @@
 	#aIMGS{
 		height: 70%;
 	}
-	.about h1{
-/*		margin: -195% 0 0 1%;*/
-		float: left;
-		font-size: -webkit-xxx-large;
+	.aHEADING{
+    left: 0;
+    top: 60%;
+    font-size: -webkit-xxx-large;
 	}
 	.aP{
-/*		margin: -190% 0 0 1%;*/
 		height: auto;
-		float: left;
 		font-size: inherit;
+		left: 1%;
+		top: 70%;
 	}
 	.footer{
 		margin: 0 0 0 0;
