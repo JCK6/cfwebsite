@@ -186,8 +186,7 @@
 	.aP{
 		height: auto;
 		font-size: inherit;
-		left: 1%;
-		top: 70%;
+		margin: 160% 0 0 0;
 	}
 	.footer{
 		margin: 0 0 0 0;
