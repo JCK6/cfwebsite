@@ -10,8 +10,7 @@
 .aHEADING{
 	text-align: center;
 	position: absolute;
-	left: 1.1%;
-	top: 118.2%;
+	margin: 58.5% 0 0 -0.1%;
 	background: rgb(255, 255, 255); /* Fallback color */
 	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 	color: white;
@@ -31,8 +30,7 @@
 }
 .aP{
 	position: absolute;
-	top: 125%;
-	left: 1.1%;
+	margin: 61.5% 0 0 -0.1%;
 	color: white;
 	opacity: 90%;
 	width: 97.8%;
